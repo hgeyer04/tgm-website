@@ -3,14 +3,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	</head>
 	
-	<body style="overflow-y: auto">
-		<div  id="kopfzeile" class="fixed-top" style="height: 10%">
+	<body style="overflow-y: auto; background-color: #ededed">
+		<div  id="kopfzeile" class="fixed-top border-bottom shadow" style="height: 8%; background-color: white">
 	
-			<div class="row h-100"  style="border: 1px solid black">
+			<div class="row h-100" >
 				
-				<div class="col-1 p-0 h-100 pl-2" style="">
+				<div class="col-1 p-0 h-100 pl-4" style="">
 				
 					<div class="text-white font-weight-light" >
 						<img style="min-height: 20px; max-height: 200px; height: 100%" src="Bilder/logo.png" />
@@ -18,40 +19,29 @@
 					
 				</div>
 				
-				<div class="col-1 my-auto pl-5" >
-					<div align="center">
-						<button class="btn" type="button">Home</button>
-					</div>
+				<div class="col-2 my-auto">
+					<div align="center">Home </div>
 				</div>
 				
-				<div class="col-1 my-auto">
-					<div align="center">
-						<button class="btn" type="button">Home</button>
+				<div class="col-6">
+				</div>
+				
+				<div class="col-2 my-auto">
+					<!-- Search form -->
+					<div class="mx-auto md-form mt-0">
+						<input class="form-control" type="text" placeholder="Search" aria-label="Search">
 					</div>
 				</div>
-			
+				<div class="col-1 my-auto">
+					<button class="btn"><i style="font-size: 20px" class="glyphicon glyphicon-cog"></i></button>
+				</div>
 			</div>
 		</div>
 		
-		<div id="content" class="container-fluid" style="margin-top: 5%">
-			<div class="row" style="height: 12%"> 
-				<!--Stellt margin-top der unteren Row dar, also den Abstand über den Logo-->
-			</div>
-			
-			<div class="row" style="height: 30%">
-				<div class="col-1" >
-				</div>
-				<div class="col-10 p-0 border" id="tgmLogo" >
-					<img class="w-100" src="Bilder/banner.png" />
-				</div>
-			</div>
-			
-			<div class="row" style="margin-top: 10%; height: 35%; ">
-				<div class="col-1">
-				</div>
-				<div class="col-10">
-					<div class="border" style="width: 33%; height: 100%" >
-					</div>
+		<div id="content" class="container-fluid" style="margin-top: 7%">
+			<div class="row">
+				<div class="col-12" >
+					<img class="w-75" src="bilder/banner.gif" />
 				</div>
 			</div>
 		</div>
